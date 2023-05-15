@@ -1,22 +1,30 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Counter from Asadbek</title>
+    <title>Text Formatter from Asadbek</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <h1>Type In Your Words</h1>
+        <input type="text" id="input" placeholder="Type Your Text Here" />
+      </div>
 
-<body>
-    <main class="content">      
-        <div class="counter">
-            <div class="counter-box" id="count">0</div>
-            <button class="button1">INCREMENT</button>
-            <button class="button2">DECREMENT</button>
-        </div>
-    </main>
+      <div class="btns">
+        <button class="btn uppercase">ABC</button>
+        <button class="btn lowercase">abc</button>
+        <button class="btn capitalize">Abc</button>
+        <button class="btn bold">B</button>
+        <button class="btn italic">/</button>
+        <button class="btn underline">ABC</button>
+      </div>
+
+      <p id="output">Output</p>
+    </div>
+
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
